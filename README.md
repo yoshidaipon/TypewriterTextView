@@ -6,12 +6,15 @@ TypewriterTextView, which inherits from TextView, displays characters one by one
 ![使用例](docs/anim.gif)
 
 デフォルトの表示間隔は0.05秒です。
+
 setDelay(millis: Long)で設定できます。
 
 表示したいテキストを渡すと、タイプライターのようなアニメーションが始まります。
+
 ```kotlin
 textView.animateText("表示したいテキスト")
 ```
+
 
 紹介記事はこちら
 https://tech.naturalmindo.com/?p=532
