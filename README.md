@@ -12,3 +12,6 @@ setDelay(millis: Long)で設定できます。
 ```kotlin
 textView.animateText("表示したいテキスト")
 ```
+
+紹介記事はこちら
+https://tech.naturalmindo.com/?p=532
